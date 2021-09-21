@@ -144,7 +144,7 @@ p {
     left: 0px;
     right: 0px;
     content: "";
-    background: #7c4dff;
+    background: #ff9800;
     height: 39px;
     width: 2px;
     margin: 0px auto;
@@ -275,7 +275,8 @@ p {
 
 .bg-home {
     position: relative;
-    background-image: url(https://via.placeholder.com/2000X1333//88929f/5a6270C/O%20https://placeholder.com/);
+    /* background-image: url(\images\MyPic1.png); */
+    background-image: url(MyPic1.png);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -585,7 +586,8 @@ p {
 
 .bg-counter{
     position: relative;
-    background-image: url(https://via.placeholder.com/2000X1333//88929f/5a6270C/O%20https://placeholder.com/);
+    /* background-image: url(\images\MyPic1.png); */
+    background-image: url(\images\MyPic1.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
