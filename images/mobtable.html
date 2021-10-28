@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NYSC - Mobilization Timetable</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font.css">
+<link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/CFB77966-59F5-A74A-9028-904DB7FCC544/main.js" charset="UTF-8"></script><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/CFB77966-59F5-A74A-9028-904DB7FCC544/main.js" charset="UTF-8"></script><script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png" > 
+
+<style>
+table, th, td {
+    border: 3px solid green;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+</style>
+	
+</head>
+<body>
+
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<div class="container">
+  <header id="header">
+    <div class="row">
+           <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_bottom">
+          <div class="logo_area"><a href="index.html" class="logo"><img src="images/cmsalute.jpg" alt=""></a></div>
+          <div class="add_banner"><a href="#"><img src="images/NYSCFinalBanner.jpg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <section id="navArea">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav main_nav">
+          <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About NYSC</a>
+		   <ul class="dropdown-menu" role="menu">
+              <li><a href="aboutscheme.html">About the Scheme</a></li>
+              <li><a href="aboutdg.html">About the DG</a></li>
+              <li><a href="dgoffice.html">Office of the DG</a></li>
+			  <li><a href="management.html">Top Management</a></li>
+              <li><a href="objectives.html">Objectives</a></li>
+              <li><a href="vision.html">Vision & Mission</a></li>
+              <li><a href="structure.html">Structure</a></li>
+              <li><a href="serviceyear.html">NYSC Service Year: Overview</a></li>
+              <li><a href="programs.html">Programs</a></li>
+            </ul>
+          </li>
+		  
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Departments</a>
+            <ul class="dropdown-menu" role="menu">
+			  <li><a href="cds.html">Community Development Service</a></li>
+			  <li><a href="mob.html">Corp Mobilization</a></li>
+			  <li><a href="cwi.html">Corp Welfare & Inspectorate</a></li>
+			  <li><a href="cert.html">Corp Certification</a></li>
+			  <li><a href="dfa.html">Finance & Accounts</a></li>
+              <li><a href="hrm.html">Human Resource Management</a></li>
+              <li><a href="ict.html">Information Communication Technology</a></li>
+			  <li><a href="prs.html">Planning, Research & Statistics</a></li>
+              <li><a href="procurement.html">Procurement</a></li>
+              <li><a href="saed.html">Skills Acquisition and Entreprenuership Development</a></li>
+              <li><a href="ventures.html">Ventures Management</a></li>
+			  <li><a href="genservice.html">General Services</a></li>
+			  <li><a href="sduties.html">Special Duties</a></li>
+              <li><a href="audit.html">Internal Audit</a></li>
+              <li><a href="ppru.html">Press & Public Relations Unit</a></li>
+              <li><a href="reforms.html">Reforms Unit</a></li>
+              <li><a href="legal.html">Legal Unit</a></li>
+              </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations</a>
+		   <ul class="dropdown-menu" role="menu">
+              <li><a href="ndhq.html">NYSC Directorate Headquarters</a></li>
+              <li><a href="secretariats.html">State Secretariats</a></li>
+              <li><a href="camps.html">Orientation Camps</a></li>
+           </ul>
+          </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Downloads</a>
+		   <ul class="dropdown-menu" role="menu">
+              <li><a href="decree.html">NYSC Decree</a></li>
+              <li><a href="byelaw.html">NYSC Bye-Laws (Revised 2011)</a></li>
+            <!-- NYSC Concessional Entry Program used to be here -->
+			  <li><a href="http://www.nysc.gov.ng/downloads/nysc-magazine.pdf"; target="_blank";>NYSC Magazine</a></li>
+           </ul>
+          </li>
+          <li><a href="contactus.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea">
+         <!-- Scroller Text Code Starts here -->
+       <marquee behavior="scroll" SCROLLDELAY="80" direction="left" width="100%" height="26.5px" bgcolor="#147119">
+		<p style="color:white; font-size:16px;"> Stay Connected to Us on Social Media; Facebook: <a href="http://www.facebook.com/officialnysc"; target="_blank" style="color:white;">@officialnysc</a>, Twitter: <a href="http://www.twitter.com/officialnyscng"; target="_blank" style="color:white;">@officialnyscng</a>, Instagram: <a href="http://www.instagram.com/officialnyscng"; target="_blank" style="color:white;">@officialnyscng</a> </p>
+
+    </marquee> 
+	
+	<!-- Scroller Text Code Ends here -->
+	
+          <div class="social_area">
+            <ul class="social_nav">
+              <li class="facebook"><a href="http://www.facebook.com/officialnysc"; target="_blank"></a></li>
+              <li class="twitter"><a href="http://www.twitter.com/officialnyscng"; target="_blank"></a></li>
+              <li class="flickr"><a href="http://www.instagram.com/officialnyscng"; target="_blank"></a></li>
+             <!-- <li class="pinterest"><a href="https://www.pinterest.com/nyscndhq/"; target="_blank"></a></li> -->
+              <li class="googleplus"><a href="https://goo.gl/envpQj"; target="_blank"></a></li>
+              <!-- <li class="vimeo"><a href="https://goo.gl/KnP0i6"; target="_blank"></a></li> -->
+              <li class="youtube"><a href="https://goo.gl/m9YtAH"; target="_blank"></a></li>
+              <li class="mail"><a href="mailto:info@nysc.gov.ng?Subject=Mail%20from%20Website"; target="_top"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- removed slider section in home page -->
+  
+  <section id="contentSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="left_content">
+          <div class="single_post_content">
+           <h3 style="color:green;">NYSC Mobilization Time-Table For 2021 Batch 'B' </h3> &nbsp;
+			
+			<table style="width:100%">
+			  <tr>
+				<th>S/N</th>
+				<th>Event</th> 
+				<th>Date</th>
+			  </tr>
+			
+			  <tr>
+				<td> 1 </td>
+				<td>2021 Batch 'A' Post Mobilisation Workshop</td> 
+				<td>21st – 24th June 2021</td>
+			  </tr>
+			  
+			  <tr>
+				<td> 2 </td>
+				<td> 2021 Batch 'B' Pre-Mobilisation Workshop	</td> 
+				<td> 27th June   – 1st  July 2021 </td>
+			  </tr>
+			  
+			  
+			  <tr>
+				<td> 3 </td>
+				<td> Uploading of Senate/Academic Board Approved Results for Full/Part-Time Graduates and Revalidation Lists by CPIs </td> 
+				<td> 31st May  – 28th  June 2021 </td>
+			  </tr>
+			  
+			  
+			  <tr>
+				<td> 4 </td>
+				<td> Submission of Hard Copies of Senate/Academic Board Approved Results for Full/Part-Time Graduates and Revalidation Lists by CPIs </td> 
+				<td> 28th June - 5th July 2021 </td>
+			  </tr>
+			  			  
+			  <tr>
+				<td> 5 </td>
+				<td> On-line Registration by Foreign and locally Trained Nigerian Graduates </td> 
+				<td> 29th June – 12th July 2021 </td>
+			  </tr>
+			  
+			  <tr>
+				<td> 6 </td>
+				<td> Pre-camp Physical Verification of Credentatials of  Foreign Trained Nigerian Graduates </td> 
+				<td> 12th  – 17th  July 2021 </td>
+			  </tr>
+			  <tr>
+				<td> 7 </td>
+				<td> Entertainment of complaints from Prospective Corps Members by the state Deployment and Relocation officers and NYSC Help Lines/Desks officers.	 </td> 
+				<td> 29th June – 5th July 2021 </td>
+			  </tr>
+			  
+			  
+			  <tr>
+				<td> 8 </td>
+				<td> Action by ICT Department </td> 
+				<td> 20th – 24th   July 2021 </td>
+			  </tr>
+ 
+			  <tr>
+				<td> 9</td>
+				<td> Notification and Printing of Call-up Letters by PCMs </td> 
+				<td> 24th – 26th   July 2021 </td>
+			  </tr>
+			  
+			  
+			    <tr>
+				<td> 10 </td>
+				<td> Delivery of Manual  Call-up Letters to Institutions </td> 
+				<td> 24th – 26th   July 2021 </td>
+			  </tr>
+			  
+			  
+			  <tr>
+				<td> 11 </td>
+				<td> 2021 Batch B Orientation Course	</td> 
+				<td> </td>
+			  </tr>
+			  
+			</table>
+		
+		  </div>
+          
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <aside class="right_content">
+           <div class="latest_post">
+          <h2><span>Latest post</span></h2>
+          <div class="latest_post_container">
+            <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+            <ul class="latest_postnav">
+               <li>
+                <div class="media wow fadeInDown"> <a href="news1.html" class="media-left"> <img alt="" src="images/newsnail1.jpg"> </a>
+                  <div class="media-body"> <a href="news1.html" class="catg_title" style="color:green; font-size:18px;"> Click Here to Read More News Updates from the NYSC </a> </div>
+                </div>
+              </li>
+            
+            </ul>
+            
+          </div>
+        </div>
+		  
+		  <div class="single_sidebar">
+            <h2><span>Video</span></h2>
+			
+			<div class="vide_area">
+                  <iframe width="100%" height="250" src="http://www.youtube.com/embed/IKkd-25vGQU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+                </div>
+				
+          </div>
+          
+          
+          <div class="single_sidebar wow fadeInDown">
+            <h2><span>Information on NYSC Certificates</span></h2>
+            <ul>
+              <li><a href="certverify.html"> <p style="font-size:18px"> Verification of Certificates </p> </a></li>
+              <li><a href="certcollectexp.html"> <p style="font-size:18px"> Collection/Replacement of Certificate of Exemption </p> </a></li>
+              <li><a href="certcollectcns.html"> <p style="font-size:18px"> Collection/Replacement of Certificate of National Service </p></a></li>
+              </ul>
+          </div>
+		  
+        </aside>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="footer_top">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInLeftBig">
+            <h2 style="font-size:20px;"> Media Gallery </h2>
+			<h2><span> <a href="dggallery.html" style="color:green; font-size:16px;"> Director General's Gallery </a> </span></h2>
+			<h2><span> <a href="ndhqgallery.html" style="color:green; font-size:16px;"> NDHQ Staff Gallery </a> </span></h2>
+			<h2><span> <a href="statesgallery.html" style="color:green; font-size:16px;"> NYSC State Gallery </a> </span></h2>
+			
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInDown">
+            <h2 style="font-size:20px;"> Quick Links</h2>
+            <ul class="tag_nav">
+				<li><a href="mobtable.html" style="color:green; font-size:14px;">NYSC Mobilization Time-table</a></li>
+              <li><a href="https://portal.nysc.org.ng" target="_blank" style="color:green; font-size:14px;">Prospective Corps Members Online Registration </a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=ng.gov.nysc.nyscmobileapp11" target="_blank" style="color:green; font-size:14px;">Download NYSC Mobile App</a></li>
+              
+              <li><a href="serviceyear.html" style="color:green; font-size:14px;">NYSC Service Year:- An Overview</a></li>
+              <li><a href="camps.html" style="color:green; font-size:14px;">NYSC Orientation Camp Addresses</a></li>
+              <li><a href="secretariats.html" style="color:green; font-size:14px;">NYSC State Offices</a></li>
+              <li><a href="vision.html" style="color:green; font-size:14px;">Vision & Mission</a></li>
+              <li><a href="mobguide.html" style="color:green; font-size:14px;">Guidelines for Mobilisation </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+           <div class="footer_widget wow fadeInRightBig">
+            <h2 style="font-size:20px;">We are Social </h2>
+           			
+				<iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com/officialnysc/&amp;width=307&amp;height=300&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;border_color=%233B5998&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:307px; height:300px;" allowTransparency="true"></iframe>
+				
+				<br/> <br/>
+				
+				<a href="https://twitter.com/nysc_ng" class="twitter-follow-button" data-show-count="true" data-size="large" data-show-screen-name="false">Follow Us @nysc_ng</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				
+				<br/> 
+				
+   			<h4> Follow Us on Instagram <a href="https://instagram.com/nysc_ng" target="_blank"> <img alt="" src="images/insta.png" width="40px" height="40px"> </img>  </a> </h4> 
+								
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p class="copyright">Copyright &copy; 2017 <a href="index.html">NYSC Directorate Headquarters</a></p>
+      <p class="developer">Developed By NYSC NDHQ ICT</p>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/jquery.li-scroller.1.0.js"></script> 
+<script src="assets/js/jquery.newsTicker.min.js"></script> 
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
