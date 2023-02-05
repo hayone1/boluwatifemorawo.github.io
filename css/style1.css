@@ -276,7 +276,7 @@ p {
 .bg-home {
     position: relative;
     /* background-image: url(images/MyPic1.png); */
-    background-image: url(images/MyPic1.png);
+    background-image: url(images/MyPic1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
